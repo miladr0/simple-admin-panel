@@ -5,7 +5,7 @@ import Sidebar from './components/sidebar/Sidebar'
 import TopNav from './components/TopNav'
 import themeStore from './stores/themeStore'
 
-import './app.css'
+import './App.css'
 
 export default function App() {
   const { currentTheme, currentColor, setCurrentTheme, setColorTheme } =
