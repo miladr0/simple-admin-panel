@@ -1,83 +1,88 @@
 .topnav {
-    display: flex;
-    padding: 15px;
-    align-items: center;
-    justify-content:space-between;
-    height:var(--topnav-height);
-    background-color:var(--main-bg);
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--topnav-height);
+  background-color: var(--main-bg);
 }
 
 .topnav-search {
-    position: relative;
-    height: 50px;
-    width: 20%;
-    background-color:var(--main-bg);
-    display: flex;
-    align-items: center;
-    box-shadow: var(--box-shadow);
-    border-radius:var(--border-radius);
-    overflow: hidden;
+  position: relative;
+  height: 50px;
+  width: 20%;
+  background-color: var(--main-bg);
+  display: flex;
+  align-items: center;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  overflow: hidden;
 }
 .topnav-search > input {
-    width: 100%;
-    height: 100%;
-    padding:10px 20px;
-    font-size: 1rem;
-    border-radius: var(--border-radius);
-    color:var(--txt-color);
-    border:none;
-    background-color:var(--main-bg);
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: var(--border-radius);
+  color: var(--txt-color);
+  border: none;
+  background-color: var(--main-bg);
 }
 .topnav-search > i {
-    position: absolute;
-    font-size: 1.5rem;
-    right: 20px;
-    cursor: pointer;
+  position: absolute;
+  font-size: 1.5rem;
+  right: 20px;
+  cursor: pointer;
   color: var(--txt-color);
 }
 
 .topnav-right {
-    display: flex;
-    align-items:center;
+  display: flex;
+  align-items: center;
 }
 
 .topnav-right-item ~ .topnav-right-item {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .notification-item {
-    display: flex;
-    align-items:center;
-    padding:20px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
 }
 
 .notification-item:hover {
-    background-color:var(--second-bg)
+  background-color: var(--second-bg);
 }
 .notification-item > i {
-    font-size:1.5rem;
-    margin-right: 20px;
+  font-size: 1.5rem;
+  margin-right: 20px;
+  color: var(--txt-color);
+}
+
+.notification-item > span {
+  color: var(--txt-color);
 }
 
 .topnav-right-user {
-    display: flex;
-    align-items:center;
+  display: flex;
+  align-items: center;
 }
 
 .topnav-right-user-image {
-    width:40px;
-    height:40px;
-    border-radius: 50%;
-    overflow:hidden;
-    margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
 }
 
 .topnav-right-user-image > img {
-    width:100%
+  width: 100%;
 }
 
 .topnav-right-user-name {
-    font-size:1rem;
-    font-weight: 600;
+  font-size: 1rem;
+  font-weight: 600;
   color: var(--txt-color);
 }

@@ -29,7 +29,7 @@ export default function chart() {
         }
       : {
           ...chartData.options,
-          theme: { mode: 'dark' },
+          theme: { mode: 'light' },
         }
   return (
     <>
