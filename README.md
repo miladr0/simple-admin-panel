@@ -1,8 +1,7 @@
 # React Admin panel with multi Theme.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## How to Run
 
 In the project directory, you can run:
 
@@ -13,7 +12,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Demo
 
-[React Admin Panel]()
+[React Admin Panel](https://simple-admin-panel.vercel.app/)
 
 ![Dark them](https://i.imgur.com/jMJ4Ua6.png)
 ![Light them](https://i.imgur.com/gkbSG0D.png)
