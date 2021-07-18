@@ -1,0 +1,83 @@
+.status-card {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color:var(--main-bg);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition:color 0.5s ease 0s;
+    margin-bottom: 15px;
+}
+
+.status-card-icon {
+    width:30%;
+    height: 100%;
+    font-size: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.status-card-icon > i {
+    color: var(--txt-color);
+}
+
+.status-card-info {
+    flex-grow: 1;
+    text-align: center;
+    z-index: 1;
+    text-transform:capitalize;
+}
+
+.status-card::before {
+    content:"";
+    width:100%;
+    padding-top: 100%;
+    border-radius: 50%;
+    background-image: linear-gradient(
+        to top right,
+        var(--main-color),
+        var(--second-color)
+    );
+    position:absolute;
+    left:-50%;
+    top:0;
+    transform:scale(0);
+    transition:transform 0.8s ease 0s;
+}
+
+.status-card:hover::before {
+    transform:scale(3);
+}
+
+.status-card:hover > .status-card-info > * {
+    color: var(--txt-white)
+}
+.status-card:hover > .status-card-icon > * {
+    color: var(--txt-white)
+}
+
+.light-blue {
+    color: rgb(59, 130, 246) ;
+}
+
+.light-red {
+    color: rgb(239, 68, 68) ;
+}
+
+.light-amber {
+    color: rgb(245, 158, 11) ;
+}
+
+.light-green {
+    color: rgb(34, 197, 94) ;
+}
+
+.status-card-info-header {
+    font-size:1.8rem;
+    font-weight: 700;
+    margin-bottom:10px;
+}

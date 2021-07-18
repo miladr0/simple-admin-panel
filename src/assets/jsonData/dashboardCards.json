@@ -1,0 +1,26 @@
+[
+    {
+        "icon": "bx bx-dollar",
+        "count":"$3,303",
+        "title":"Monthly Revenue",
+        "color":"blue"
+    },
+    {
+        "icon": "bx bxs-cart",
+        "count":"3000",
+        "title":"new orders",
+        "color":"amber"
+    },
+    {
+        "icon": "bx bxs-user",
+        "count":"2000",
+        "title":"new customers",
+        "color":"green"
+    },
+    {
+        "icon": "bx bxs-comment-detail",
+        "count":"1,995",
+        "title":"pending reviews",
+        "color":"red"
+    }
+]

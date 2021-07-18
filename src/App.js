@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import Routes from './Routes'
+import Sidebar from './components/sidebar/Sidebar'
+import TopNav from './components/TopNav'
+import themeStore from './stores/themeStore'
 
-function App() {
+import './app.css'
+
+export default function App() {
+  const { currentTheme, currentColor, setCurrentTheme, setColorTheme } =
+    themeStore()
+  useEffect(() => {
+    const themeClass = localStorage.getItem('themeMode', 'theme-mode-light')
+    const colorClass = localStorage.getItem('colorMode', 'theme-color-blue')
+
+    setCurrentTheme(themeClass)
+    setColorTheme(colorClass)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <Router>
+      <Route
+        render={(props) => (
+          <div className={`layout ${currentTheme} ${currentColor}`}>
+            <Sidebar {...props} />
+            <div className='layout-content'>
+              <TopNav />
 
-export default App;
+              <div className='layout-content-main'>
+                <Routes />
+              </div>
+            </div>
+          </div>
+        )}
+      ></Route>
+    </Router>
+  )
+}

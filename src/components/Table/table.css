@@ -1,0 +1,89 @@
+.table-wrapper {
+    overflow:auto;
+}
+
+table {
+    width: 100%;
+    min-width: 400px;
+    border-spacing: 0;
+}
+
+thead {
+    background-color:var(--second-bg)
+}
+
+tr {
+    text-align:left;
+}
+
+th,td {
+    text-transform: capitalize;
+    padding: 10px;
+  color: var(--txt-color);
+}
+
+tbody > tr:hover>td {
+    background-color:var(--main-color);
+    color:var(--txt-white);
+}
+
+.table-pagination {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items:center;
+    margin-top:20px;
+}
+
+.table-pagination-item {
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    cursor: pointer;
+  color: var(--txt-color);
+}
+
+.table-pagination-item.active,
+.table-pagination-item.active:hover {
+    background-color:var(--main-color);
+    color: var(--txt-white);
+    font-weight: 600;
+}
+
+.table-pagination-item:hover {
+    color: var(--txt-white);
+    background-color: var(--second-color);
+}
+
+ /* user balance table */
+ .item-profile-holder {
+     display: flex;
+     align-items: center;
+ }
+
+ .item-username-with-date {
+     margin-left: 5px;
+ }
+ .item-username-with-date > h6 {
+    color: var(--txt-color);
+    font-size: 1rem;
+    font-weight: 600;
+ }
+ .item-username-with-date > p {
+    color: var(--txt-color);
+    font-size: 0.8rem;
+    font-weight: lighter;
+ }
+
+ .item-profile-image {
+     width:56px;
+     height:56px;
+     border-radius: 50%;
+ }
+ .item-edit-icon {
+    color: var(--txt-color);
+    cursor: pointer;
+ }

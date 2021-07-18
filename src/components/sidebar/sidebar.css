@@ -1,0 +1,73 @@
+.sidebar {
+    min-width: var(--sidebar-width);
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top:0;
+    background-color:var(--main-bg);
+    box-shadow:var(--box-shadow)
+}
+
+.sidebar-logo {
+    margin: 5px auto 10px;
+    height: 150px;
+    width:150px;
+    overflow: hidden;
+    display:flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content:center;
+}
+
+.sidebar-logo > img {
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar-item {
+    padding: 0 20px;
+}
+
+.sidebar-item-inner {
+    padding: 15px 25px;
+    display:flex;
+    align-items: center;
+    font-weight: 600;
+    transition:color 0.3s ease 0s;
+    color: var(--txt-color)
+}
+
+.sidebar-item-inner > i {
+    margin-right: 10px;
+    font-size:1.5rem;
+    color: var(--txt-color);
+
+}
+
+.sidebar-item-inner > span {
+    text-transform:capitalize;
+    color: var(--txt-color);
+}
+
+.sidebar-item-inner:hover > span {
+    color:var( --main-color)
+}
+.sidebar-item-inner:hover > i {
+    color:var( --main-color)
+}
+
+.sidebar-item-inner.active {
+    border-radius: var(--border-radius);
+    background-image: linear-gradient(
+        to right,
+        var(--main-color),
+        var(--second-color)
+    );
+    color: var(--txt-white);
+}
+.sidebar-item-inner.active > span {
+    color:var( --txt-white)
+}
+.sidebar-item-inner.active > i {
+    color:var( --txt-white)
+}

@@ -1,0 +1,11 @@
+[
+    {
+        "icon" : "bx bxs-error",
+        "content" : "lorem"
+    }
+    ,
+    {
+        "icon" : "bx bxs-cart",
+        "content" : "lorem cart"
+    }
+]
