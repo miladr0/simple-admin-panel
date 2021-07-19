@@ -1,48 +1,47 @@
-
-    [
-        {
-           "path" : "/",
-           "title":"Dashboard",
-           "icon":"bx bxs-dashboard"
-        },
-        {
-            "path" : "/users",
-            "title":"Users",
-            "icon":"bx bxs-user-account"
-         },
-         {
-            "path" : "/orders",
-            "title":"Orders",
-            "icon":"bx bx-dollar"  
-         },
-         {
-            "path" : "/analytics",
-            "title":"Analytics",
-            "icon":"bx bxs-analyse"  
-         },
-         {
-            "path" : "/reviews",
-            "title":"Reviews",
-            "icon":"bx bxs-comment-detail"  
-         },
-         {
-            "path" : "/categories",
-            "title":"Categories",
-            "icon":"bx bxs-book-bookmark"  
-         },
-         {
-            "path" : "/academy",
-            "title":"Academy",
-            "icon":"bx bxs-brain"   
-         },
-         {
-            "path" : "/mail-box",
-            "title":"Mailbox",
-            "icon":"bx bx-mail-send"   
-         },
-         {
-            "path" : "/file-manager",
-            "title":"File Manager",
-            "icon":"bx bxs-file-find"   
-         }
-    ]
+[
+  {
+    "path": "/",
+    "title": "Dashboard",
+    "icon": "bx bxs-dashboard"
+  },
+  {
+    "path": "/users",
+    "title": "Users",
+    "icon": "bx bxs-user-account"
+  },
+  {
+    "path": "/orders",
+    "title": "Orders",
+    "icon": "bx bx-dollar"
+  },
+  {
+    "path": "/analytics",
+    "title": "Analytics",
+    "icon": "bx bxs-analyse"
+  },
+  {
+    "path": "/reviews",
+    "title": "Reviews",
+    "icon": "bx bxs-comment-detail"
+  },
+  {
+    "path": "/categories",
+    "title": "Categories",
+    "icon": "bx bxs-book-bookmark"
+  },
+  {
+    "path": "/academy",
+    "title": "Academy",
+    "icon": "bx bxs-brain"
+  },
+  {
+    "path": "/mail-box",
+    "title": "Mailbox",
+    "icon": "bx bx-mail-send"
+  },
+  {
+    "path": "/file-manager",
+    "title": "File Manager",
+    "icon": "bx bxs-file-find"
+  }
+]

@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom'
 import dashboardCards from '../../assets/jsonData/dashboardCards.json'
 import Card from '../../components/Card'
 import Chart from './Chart'
-import TopUsersTable from './TopUsersTable'
-import LastOrdersTable from './LastOrdersTable'
 import TopUsersBalance from './TopUsersBalance'
 import RevenueHistoryTable from './RevenueHistoryTable'
 
@@ -54,36 +52,6 @@ export default function Dashboard() {
             </div>
             <div className='card-body'>
               <RevenueHistoryTable />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className='row'>
-        <div className='col-5'>
-          <div className='card'>
-            <div className='card-header'>
-              <h3>top users</h3>
-            </div>
-            <div className='card-body'>
-              <TopUsersTable />
-            </div>
-            <div className='card-footer'>
-              <Link to='/'>view all </Link>
-            </div>
-          </div>
-        </div>
-
-        <div className='col-7'>
-          <div className='card'>
-            <div className='card-header'>
-              <h3>top orders</h3>
-            </div>
-            <div className='card-body'>
-              <LastOrdersTable />
-            </div>
-            <div className='card-footer'>
-              <Link to='/'>view all</Link>
             </div>
           </div>
         </div>
