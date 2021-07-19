@@ -33,7 +33,7 @@ export default function index() {
             badge='12'
             contentData={notifications}
             renderItems={notificationItemRenderer}
-            renderFooter={() => <Link to='/'></Link>}
+            renderFooter={() => <Link to='/'>see all</Link>}
           />
         </div>
         <div className='topnav-right-item'>

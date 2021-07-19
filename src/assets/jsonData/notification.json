@@ -1,11 +1,14 @@
 [
-    {
-        "icon" : "bx bxs-error",
-        "content" : "lorem"
-    }
-    ,
-    {
-        "icon" : "bx bxs-cart",
-        "content" : "lorem cart"
-    }
+  {
+    "icon": "bx bxs-error",
+    "content": " This alert needs your attention, but it's not important."
+  },
+  {
+    "icon": "bx bxs-watch",
+    "content": " You successfully read this important alert message."
+  },
+  {
+    "icon": "bx bxs-info-circle",
+    "content": "Best check yourself, you're not looking too good."
+  }
 ]

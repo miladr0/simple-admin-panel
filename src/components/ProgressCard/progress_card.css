@@ -1,0 +1,81 @@
+.card-container {
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  background-color: var(--main-bg);
+  border-radius: 10px;
+}
+
+.card-body {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+.card-body-icon {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.card-body-icon > i {
+  font-size: 1.8rem;
+  color: var(--txt-white);
+}
+
+.card-body-data {
+  margin-left: 8px;
+}
+
+.card-body-data > * {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--txt-color);
+}
+
+.progress-container {
+  height: 6px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  width: 75%;
+  height: 6px;
+}
+
+.red-color {
+  background-color: #ff5668;
+}
+
+.transparent-red-color {
+  background-color: rgba(255, 86, 104, 0.18823529411764706);
+}
+
+.cyan-color {
+  background-color: #41d5e2 !important;
+}
+
+.transparent-cyan-color {
+  background-color: rgba(65, 213, 226, 0.18823529411764706);
+}
+
+.yellow-color {
+  background-color: #ffc405 !important;
+}
+
+.transparent-yellow-color {
+  background-color: rgba(255, 196, 5, 0.18823529411764706);
+}
+.blue-color {
+  background-color: #4d53e0;
+}
+
+.transparent-blue-color {
+  background-color: rgba(77, 83, 224, 0.18823529411764706);
+}
