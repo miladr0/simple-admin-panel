@@ -14,5 +14,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 [React Admin Panel](https://simple-admin-panel.vercel.app/)
 
-![Dark them](https://i.imgur.com/jMJ4Ua6.png)
-![Light them](https://i.imgur.com/gkbSG0D.png)
+![Dark theme](https://i.imgur.com/jMJ4Ua6.png)
+
+![Deep Blue theme](https://i.imgur.com/yNIWh8M.png)
+
+![Light theme](https://i.imgur.com/gkbSG0D.png)

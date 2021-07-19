@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import dashboardCards from '../../assets/jsonData/dashboardCards.json'
 import Card from '../../components/Card'
 import Chart from './Chart'
