@@ -15,6 +15,24 @@ const modeSettings = [
     background: 'dark-background',
     class: 'theme-mode-dark',
   },
+  {
+    id: 'gray',
+    name: 'Gray',
+    background: 'gray-background',
+    class: 'theme-mode-gray',
+  },
+  {
+    id: 'blueGray',
+    name: 'Blue Gray',
+    background: 'blueGray-background',
+    class: 'theme-mode-blueGray',
+  },
+  {
+    id: 'warmGray',
+    name: 'Warm Gray',
+    background: 'warmGray-background',
+    class: 'theme-mode-warmGray',
+  },
 ]
 
 const colorSettings = [
@@ -24,6 +42,14 @@ const colorSettings = [
     background: 'blue-color',
     class: 'theme-color-blue',
   },
+
+  {
+    id: 'purple',
+    name: 'Purple',
+    background: 'purple-color',
+    class: 'theme-color-purple',
+  },
+
   {
     id: 'red',
     name: 'Red',

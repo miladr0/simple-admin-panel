@@ -24,6 +24,9 @@
   --main-color-amber: rgb(245, 158, 11);
   --second-color-amber: #fbbf24;
 
+  --main-color-purple: #673ab7;
+  --second-color-purple: #7b3be9;
+
   --main-bg-light: #ffffff;
   --second-bg-light: #fafafb;
   --txt-color-light: #455560;
@@ -33,6 +36,21 @@
   --second-bg-dark: #202020;
   --txt-color-dark: #bbbbbb;
   --box-shadow-dark: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+
+  --main-bg-gray: #616161;
+  --second-bg-gray: #424242;
+  --txt-color-gray: #bbbbbb;
+  --box-shadow-gray: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+
+  --main-bg-blueGray: #334e68;
+  --second-bg-blueGray: #243b53;
+  --txt-color-blueGray: #eeeeee;
+  --box-shadow-blueGray: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+
+  --main-bg-warmGray: #625d52;
+  --second-bg-warmGray: #423d33;
+  --txt-color-warmGray: #eeeeee;
+  --box-shadow-warmGray: rgba(0, 0, 0, 0.2) 0px 5px 10px;
 
   --sidebar-width: 300px;
   --border-radius: 15px;
@@ -150,6 +168,21 @@ input:focus {
   color: #fff;
 }
 
+.gray-background {
+  background-color: var(--main-bg-gray);
+  color: #fff;
+}
+
+.blueGray-background {
+  background-color: var(--main-bg-blueGray);
+  color: #fff;
+}
+
+.warmGray-background {
+  background-color: var(--main-bg-warmGray);
+  color: #fff;
+}
+
 .blue-color {
   background-color: var(--main-color-blue);
   color: #fff;
@@ -172,5 +205,10 @@ input:focus {
 
 .amber-color {
   background-color: var(--main-color-amber);
+  color: #fff;
+}
+
+.purple-color {
+  background-color: var(--main-color-purple);
   color: #fff;
 }

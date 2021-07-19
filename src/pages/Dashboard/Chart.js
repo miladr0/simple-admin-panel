@@ -22,14 +22,14 @@ const chartData = {
 export default function chart() {
   const { currentTheme } = themeStore()
   const chartOptions =
-    currentTheme === 'theme-mode-dark'
+    currentTheme === 'theme-mode-light'
       ? {
           ...chartData.options,
-          theme: { mode: 'dark' },
+          theme: { mode: 'light' },
         }
       : {
           ...chartData.options,
-          theme: { mode: 'light' },
+          theme: { mode: 'dark' },
         }
   return (
     <>
