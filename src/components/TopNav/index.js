@@ -39,6 +39,11 @@ export default function index() {
         <div className='topnav-right-item'>
           <ThemeMenu />
         </div>
+        <div className='topnav-right-item'>
+          <Link to='/login'>
+            <i className='bx bx-log-out-circle logout-icon'></i>
+          </Link>
+        </div>
       </div>
     </div>
   )

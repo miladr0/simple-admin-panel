@@ -86,3 +86,8 @@
   font-weight: 600;
   color: var(--txt-color);
 }
+
+.logout-icon {
+  font-size: 1.7rem;
+  color: var(--txt-color);
+}

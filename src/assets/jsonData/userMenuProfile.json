@@ -1,18 +1,22 @@
 [
-    {
-        "icon": "bx bxs-user",
-        "content": "Profile"
-    },
-    {
-        "icon": "bx bxs-wallet-alt",
-        "content": "My Wallet"
-    },
-    {
-        "icon": "bx bxs-cog",
-        "content": "Settings"
-    },
-    {
-        "icon": "bx bxs-log-out-circle bx-rotate-180",
-        "content": "Logout"
-    }
+  {
+    "icon": "bx bxs-user",
+    "content": "Profile",
+    "path": "/"
+  },
+  {
+    "icon": "bx bxs-wallet-alt",
+    "content": "My Wallet",
+    "path": "/"
+  },
+  {
+    "icon": "bx bxs-cog",
+    "content": "Settings",
+    "path": "/"
+  },
+  {
+    "icon": "bx bxs-log-out-circle bx-rotate-180",
+    "content": "Logout",
+    "path": "/login"
+  }
 ]

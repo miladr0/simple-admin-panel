@@ -1,0 +1,75 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.login-group {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: var(--second-bg);
+  border-radius: 0.8rem;
+  box-shadow: var(--box-shadow);
+}
+
+.form-title {
+  font-size: 2rem;
+  padding: 5px 0;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.form-description {
+  padding: 10px;
+  font-size: 1.1rem;
+  background-color: #f7f8fb;
+  border-radius: 0.5rem;
+  color: #6b859e;
+}
+
+.input-group {
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.input-group > label {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--txt-color);
+}
+
+.input-group > input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  color: var(--txt-color);
+  box-sizing: border-box;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.submit-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.submit {
+  padding: 6px 30px;
+  border-radius: 1rem;
+  color: var(--txt-white);
+  background-color: var(--second-color);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.submit:hover {
+  background-color: var(--main-color);
+  color: var(--txt-white);
+}

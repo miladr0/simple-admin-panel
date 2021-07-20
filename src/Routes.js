@@ -5,6 +5,7 @@ import Dashboard from './pages/Dashboard'
 import Users from './pages/Users'
 import Orders from './pages/Orders'
 import Analytics from './pages/Analytics'
+import Login from './pages/Login'
 
 export default function Routes() {
   return (
@@ -13,6 +14,7 @@ export default function Routes() {
       <Route exact path='/users' component={Users} />
       <Route exact path='/orders' component={Orders} />
       <Route exact path='/analytics' component={Analytics} />
+      <Route exact path='/login' component={Login} />
     </Switch>
   )
 }

@@ -22,7 +22,7 @@ const renderToggle = (user) => {
 
 const renderMenu = (item, index) => {
   return (
-    <Link to='/' key={index}>
+    <Link to={item.path} key={index}>
       <div className='notification-item'>
         <i className={item.icon}></i>
         <span>{item.content}</span>

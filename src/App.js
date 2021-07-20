@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Routes from './Routes'
 import Sidebar from './components/sidebar/Sidebar'
 import TopNav from './components/TopNav'
 import themeStore from './stores/themeStore'
+import Login from './pages/Login'
 
 import './App.css'
 
@@ -21,20 +22,23 @@ export default function App() {
 
   return (
     <Router>
-      <Route
-        render={(props) => (
-          <div className={`layout ${currentTheme} ${currentColor}`}>
-            <Sidebar {...props} />
-            <div className='layout-content'>
-              <TopNav />
+      <Switch>
+        <Route path='/login' exact component={Login} />
+        <Route
+          render={(props) => (
+            <div className={`layout ${currentTheme} ${currentColor}`}>
+              <Sidebar {...props} />
+              <div className='layout-content'>
+                <TopNav />
 
-              <div className='layout-content-main'>
-                <Routes />
+                <div className='layout-content-main'>
+                  <Routes />
+                </div>
               </div>
             </div>
-          </div>
-        )}
-      ></Route>
+          )}
+        ></Route>
+      </Switch>
     </Router>
   )
 }
